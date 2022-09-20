@@ -1,0 +1,65 @@
+.favoritos {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sombra {
+    background-color: aqua;
+    border-radius: 25px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 700px;
+}
+
+.favorito {
+    background-color: #262629;
+    border-radius: 20px;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.favorito__titulo {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.favorito__descricao {
+    color: #C1C1C1;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.favorito__lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.favorito__img {
+    border-radius: 10px;
+    margin: 10px 25px 0 25px;
+    transition: 1.5s;
+    width: 120px;
+}
+
+.favorito__img:hover {
+    transform: scale(1.1);
+}
+
+/*Music*/
+
+.favorito__lista--musica {
+    margin: 0 50px 15px 50px;
+}
+
+/*Icon*/
+
+.favorito__lista--icon {
+    padding-left: 25px;
+}

@@ -1,0 +1,36 @@
+.perfil {
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 55px;
+    padding: 5px;
+    width: 150px;
+
+    transition: 1.5s;
+}
+
+.perfil__img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.perfil:hover {
+    transform: scale(1.1);
+}
+
+.perfil {
+    animation: fromTop 3s backwards;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}

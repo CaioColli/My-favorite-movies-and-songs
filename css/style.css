@@ -1,0 +1,18 @@
+@import url("header.css");
+@import url("favoritos.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #121d31;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
