@@ -6,13 +6,13 @@
     margin-top: 55px;
     padding: 5px;
     width: 150px;
-
-    transition: 1.5s;
 }
 
 .perfil__img {
     border-radius: 50%;
     width: 100%;
+
+    transition: 1.5s;
 }
 
 .perfil:hover {
