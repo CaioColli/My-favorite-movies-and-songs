@@ -16,11 +16,3 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
-@media screen and (max-width: 428px) {
-
-    html {
-        flex-wrap: wrap;
-    }
-
-}

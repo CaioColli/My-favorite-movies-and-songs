@@ -65,13 +65,13 @@
 }
 
 @media screen and (max-width: 428px) {
-
+    
     .sombra {
-        width: 428px;
+        width: 100%;
     }
 
     .favorito {
-        width: 428px;
+        width: 100%;
     }
 
     .favorito__img {
