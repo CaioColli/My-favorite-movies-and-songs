@@ -67,7 +67,12 @@
 @media screen and (max-width: 480px) {
     
     .sombra {
-        width: 428px;
+        width: 400px;
+    }
+
+    .favorito__img {
+        display: flex;
+        justify-content: center;
     }
 
     .favorito__lista--musica {
