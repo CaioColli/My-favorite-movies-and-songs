@@ -65,6 +65,10 @@
 }
 
 @media screen and (max-width: 1446px) {
+
+    body {
+        flex-wrap: nowrap;
+    }
     
     .sombra {
         width: 428px;
