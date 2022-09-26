@@ -64,7 +64,7 @@
     padding-left: 25px;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
     
     .sombra {
         width: 428px;
