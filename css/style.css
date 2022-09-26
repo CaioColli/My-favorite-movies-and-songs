@@ -17,9 +17,9 @@ body {
     font-weight: 400;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
 
-    html {
+    body {
         width: 100%;
     }
 
