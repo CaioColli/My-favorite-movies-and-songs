@@ -1,18 +1,18 @@
 .perfil {
-    background-color: aqua;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     border-radius: 50%;
     display: flex;
     margin: 0 auto;
     margin-top: 55px;
     padding: 5px;
     width: 150px;
+
+    transition: transform 1.5s;
 }
 
 .perfil__img {
     border-radius: 50%;
     width: 100%;
-
-    transition: 1.5s;
 }
 
 .perfil:hover {

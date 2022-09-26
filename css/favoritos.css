@@ -4,7 +4,7 @@
 }
 
 .sombra {
-    background-color: aqua;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     border-radius: 25px;
     display: flex;
     margin: 0 auto;
@@ -62,4 +62,24 @@
 
 .favorito__lista--icon {
     padding-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .sombra {
+        width: 428px;
+    }
+
+    .favorito {
+        width: 428px;
+    }
+
+    .favorito__img {
+        margin-left: 55px;
+    }
+
+    .favorito__lista--musica {
+        margin-left: 80px;
+    }
+
 }
